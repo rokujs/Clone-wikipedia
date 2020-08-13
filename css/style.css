@@ -1,0 +1,30 @@
+body {
+  font-size: 13px;
+  font-family: 'Lora', serif;
+}
+
+header {
+  margin: 60px auto 5px;
+  text-align: center;
+  width: 270px;
+}
+
+header .tittle {
+  margin: 12px auto;
+  font-weight: bold;
+}
+
+header .tittle .tittle__image {
+  display: inline-block;
+  width: 176px;
+  height: 32px;
+  background: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg') 0 -254px;
+  color: transparent;
+}
+
+header .tittle .tittle__text {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 33px;
+}
