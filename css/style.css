@@ -1,6 +1,9 @@
 body {
   font-size: 13px;
-  font-family: 'Lora', serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -12,6 +15,7 @@ header {
 header .tittle {
   margin: 12px auto;
   font-weight: bold;
+  font-family: 'Lora', serif;
 }
 
 header .tittle .tittle__image {
@@ -27,4 +31,103 @@ header .tittle .tittle__text {
   font-size: 15px;
   font-weight: 400;
   line-height: 33px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+main .article ul {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 546px;
+  height: 325px;
+}
+
+main .article ul .article__item {
+  background-color: white;
+  position: absolute;
+  list-style: none;
+  line-height: 21px;
+  width: 156px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+main .article ul img{
+  width: 200px;
+  position: absolute;
+  top: 64px;
+  left: 194px;
+}
+
+ul .article__item .item--language {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #36c;
+  letter-spacing: 1px;
+}
+
+ul .article__item:hover .item--language{
+  text-decoration: underline;
+}
+
+ul .article__item .item--number {
+  font-size: 13px;
+  color: #54595d;
+}
+
+
+.lang1 {
+  top: 0;
+  right: 60%;
+}
+
+.lang2 {
+  left: 60%;
+  top: 0;
+}
+
+.lang3 {
+  right: 70%;
+  top: 20%;
+}
+
+.lang4 {
+  left: 70%;
+  top: 20%;
+}
+
+.lang5 {
+  right: 72%;
+  top: 40%;
+}
+
+.lang6 {
+  left: 72%;
+  top: 40%;
+}
+
+.lang7 {
+  right: 70%;
+  top: 60%;
+}
+
+.lang8 {
+  left: 70%;
+  top: 60%;
+}
+
+.lang9 {
+  right: 60%;
+  top: 80%;
+}
+
+.lang10 {
+  left: 60%;
+  top: 80%;
 }
