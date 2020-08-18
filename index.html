@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,400;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Wikipedia</title>
@@ -13,7 +15,7 @@
 <body>
   <header>
     <h1 class="tittle">
-      <span class="tittle__image">
+      <span class="sprite tittle__image">
         Wikipedia
       </span>
       <strong class="tittle__text">
@@ -48,11 +50,26 @@
               class="item--number">1&nbsp;423&nbsp;000+ hasel</small></a></li>
       </ul>
     </div>
-    <div>
-
-    </div>
-    <div>
-
+    <div class="search">
+      <form action="search" method="post">
+        <fieldset>
+          <div class="search__box">
+            <input class="box--input" type="text" name="" id="">
+            <div class="box--language">
+              <label for="searchLanguage">ES</label>
+              <i class="sprite"></i>
+              <select class="language-select" name="searchLanguage" id="ES">
+                <option value="es" class="select">Español</option>
+                <option value="jp" class="select">Japanese</option>
+                <option value="en" class="select">English</option>
+              </select>
+            </div>
+          </div>
+          <button class="search__button">
+            <i class="sprite">search</i>
+          </button>
+        </fieldset>
+      </form>
     </div>
   </main>
 </body>

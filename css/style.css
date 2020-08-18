@@ -12,6 +12,11 @@ header {
   width: 270px;
 }
 
+.sprite {
+  background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg');
+  display: inline-block;
+}
+
 header .tittle {
   margin: 12px auto;
   font-weight: bold;
@@ -22,7 +27,7 @@ header .tittle .tittle__image {
   display: inline-block;
   width: 176px;
   height: 32px;
-  background: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg') 0 -254px;
+  background-position: 0 -254px;
   color: transparent;
 }
 
@@ -130,4 +135,112 @@ ul .article__item .item--number {
 .lang10 {
   left: 60%;
   top: 80%;
+}
+
+.search {
+  margin: 4px auto 20px;
+  line-height: 21px;
+  width: 540px;
+}
+
+.search fieldset {
+  border: none;
+  text-align: center;
+  padding: 6px 10px 12px;
+  margin: 0;
+  word-spacing: -4px;
+}
+
+.search .search__box {
+  position: relative;
+  width: 73%;
+  line-height: 21px;
+  display: inline-block;
+}
+
+.search__box .box--input {
+  height: 26px;
+  width: 100%;
+  padding: 8px 40px 8px 12px;
+  border: 1px solid #a2a9b1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-stretch: 100%;
+}
+
+.search__box .box--input:hover {
+  border-color: #72777d;
+}
+
+.search__box .box--input:focus {
+  border-color: #36c;
+  box-shadow: inset 0 0 0 1px #36c;
+  outline: 0;
+}
+
+.search__box .box--language {
+  position: absolute;
+  height: 24px;
+  max-width: 95px;
+  top: 12px;
+  right: 32px;
+}
+
+.search__box .box--language label {
+  display: inline-block;
+  color: #54595d;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search__box .box--language i {
+  background-position: 0 -519px;
+  position: absolute;
+  top: 6px;
+  left: 22px;
+  width: 12px;
+  height: 8px;
+}
+
+.box--language .language-select {
+  position: absolute;
+  top: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding: 0 24px;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.language-select option {
+  background-color: red;
+  height: auto;
+  width: auto;
+  font-size: 14px;
+  text-align: left;
+}
+
+.search .search__button {
+  background-color: #36c;
+  border: 1px solid #36c;
+  padding: 8px 16px;
+  position: relative;
+  min-height: 44px;
+  min-width: 16px;
+  line-height: normal;
+  top: -3px;
+  border-radius: 0 2px 2px 0;
+}
+
+.search__button i {
+  background-position: 0 -697px;
+  text-indent: -9999px;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 700;
+  height: 22px;
+  width: 22px;
 }
